@@ -9,7 +9,7 @@ struct Point{
 typedef struct Point pt;
 
 int main(){
-    pt a;
+pt a;
 scanf("%lf%lf", &a.x, &a.y);
 printf("%.3lf %.3lf", a.x, a.y);
 system("Pause");
