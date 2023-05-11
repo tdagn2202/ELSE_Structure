@@ -15,8 +15,3 @@ double area(rct a){
     r = a.lower_left.X-a.upper_right.X;
     return -c*r;
 }
-int main(){
-struct Rect r = {{10,2},{2,8}};
-printf("%.5lf",area(r));
-
-}
