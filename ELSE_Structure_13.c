@@ -35,5 +35,4 @@ inPhanSo(a);
 inPhanSo(b);
 nhan(a,b,&c);
 inPhanSo(c);
-system("Pause");
 }
