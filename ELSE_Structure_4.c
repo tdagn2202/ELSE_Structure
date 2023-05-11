@@ -2,11 +2,6 @@
 #include <stdlib.h> 
 #include <math.h> 
 
-struct Point{
-   double X,Y;
-};
-
-
 typedef struct Point pt;
 int equal(pt a, pt b, double epsilon){
      double d;
