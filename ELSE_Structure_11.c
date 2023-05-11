@@ -20,10 +20,3 @@ void chuanhoa(ps *pa){
     pa->TuSo /= rs;
     pa->MauSo /=rs;
 }
-
-int main(){
-struct PhanSo a = {10,15};
-inPhanSo(a);
-chuanhoa(&a);
-inPhanSo(a);
-}
