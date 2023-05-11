@@ -12,11 +12,3 @@ double distance(pt a, pt b){
     d = sqrt(((float)pow((a.x-b.x),2))+((float)pow((a.y-b.y),2)));
     return d;
 }
-
-int main(){
-struct Point A={1,10};
-struct Point B={3,4};
-	
-printf("%.4f",distance(A,B));
-
-}
