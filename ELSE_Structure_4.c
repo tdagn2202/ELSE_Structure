@@ -23,6 +23,5 @@ struct Point B={1,3};
 if (equal(A,B, 0.000001))
 	printf("A = B");
 else printf("A != B");
-system("Pause");
 
 }
