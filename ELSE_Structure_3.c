@@ -18,5 +18,5 @@ struct Point A={1,10};
 struct Point B={3,4};
 	
 printf("%.4f",distance(A,B));
-system("Pause");
+
 }
