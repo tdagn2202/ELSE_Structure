@@ -24,6 +24,4 @@
         struct Point a;
         a = readPoint(); // Gọi hàm nhập 1 điểm từ bàn phím
         printPoint(a); // Hiển thị điểm a lên màn hình
-
-    system("pause ");
     }
