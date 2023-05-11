@@ -4,7 +4,6 @@
 
 typedef struct Point pt;
 
-
 int isTriangle(pt A, pt B, pt C){
      double da, db, dc, dab, dbc, dac;
     da = sqrt((float)pow(A.X,2)+(float)pow(A.Y,2));
@@ -17,7 +16,4 @@ int isTriangle(pt A, pt B, pt C){
     // printf("%lf %lf %lf %lf %lf %lf", da, db, dc, dab, dbc, dac);
     if ((dab>dc) && (dbc > da) && (dac > db)) return 1;
     return 0;
-    
 }
-
-// Tran Hai Dang vo cung dep trai, xin hay ghi nho!!!
