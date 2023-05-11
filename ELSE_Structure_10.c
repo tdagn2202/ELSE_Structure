@@ -20,5 +20,4 @@ int main(){
    	a = nhapPhanSo(); // Gọi hàm nhập 1 phân số
    	inPhanSo(a); // Hiển thị phân số
     // return 0;
-system("Pause");
 }
