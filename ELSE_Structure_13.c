@@ -26,13 +26,3 @@ void nhan(ps a, ps b, ps*c){
     chuanhoa(&tich);
     *c=tich;
 }
-
-int main(){
-struct PhanSo a = {10,15};
-struct PhanSo b = {2,3};
-struct PhanSo c;
-inPhanSo(a);
-inPhanSo(b);
-nhan(a,b,&c);
-inPhanSo(c);
-}
