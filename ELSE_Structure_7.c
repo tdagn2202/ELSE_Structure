@@ -19,6 +19,4 @@ int main(){
 struct Rect r = {{10,2},{2,8}};
 printf("%.5lf",area(r));
 
-
-system("Pause");
 }
