@@ -15,13 +15,3 @@ int equal(pt a, pt b, double epsilon){
     return 1;
 
 }
-int main(){
-struct Point A={1,2};
-struct Point B={1,3};
-
-	
-if (equal(A,B, 0.000001))
-	printf("A = B");
-else printf("A != B");
-
-}
