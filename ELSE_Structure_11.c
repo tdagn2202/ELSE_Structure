@@ -26,5 +26,4 @@ struct PhanSo a = {10,15};
 inPhanSo(a);
 chuanhoa(&a);
 inPhanSo(a);
-system("Pause");
 }
